@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Breaking Bad site", "Breaking Bad site\", "{19503503-A9AC-4526-A86F-F11DE71B4D64}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_55601"
+		Debug.AspNetCompiler.PhysicalPath = "Breaking Bad site\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55601\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_55601"
+		Release.AspNetCompiler.PhysicalPath = "Breaking Bad site\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55601\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "55601"
+		SlnRelativePath = "Breaking Bad site\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19503503-A9AC-4526-A86F-F11DE71B4D64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19503503-A9AC-4526-A86F-F11DE71B4D64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5ED496F2-CE3F-4C23-B705-3A586252092D}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CATALOG>
+  <CD>
+    <UserName>idoadm</UserName>
+    <Password>ido1234</Password>
+    <FirstName>עידו</FirstName>
+    <LastName>יצחקי</LastName>
+    <Email>ido@gmail.com</Email>
+    <Phone>0548007435</Phone>
+    <Admin>True</Admin>
+  </CD>
+</CATALOG>

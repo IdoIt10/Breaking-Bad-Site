@@ -1,0 +1,71 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Bouldering</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <script type="text/javascript">
+        function ResetForm() {
+            document.getElementById("errorUserName").innerHTML = " "
+            document.getElementById("errorPassword").innerHTML = " ";
+            document.getElementById("errorPassword1").innerHTML = " ";
+            document.getElementById("errorMail").innerHTML = "";
+            document.getElementById("errorFirstName").innerHTML = "";
+            document.getElementById("errorLastName").innerHTML = "";
+            document.getElementById("errorPhone").innerHTML = "";
+        }
+       
+    </script>
+
+</head>
+<body style="background-color:black; text-align:left;">
+    <div>
+        <style>
+        body {
+            background-image: url("images/bb.jpg");
+            height: 880px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-color: black;
+        }
+    </style>
+                    <div>
+                        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+                        </asp:ContentPlaceHolder>
+                    </div>
+        <div class="navbar" style="text-align:left; font-size:30px; color:azure; float:left; direction:ltr">
+             <a href="Home.aspx" style="text-align:left; float:left; direction:ltr">Home</a>
+                <a href="Registration.aspx" style="text-align:left; float:left; direction:ltr">Registration</a>
+                <a href="Login.aspx" style="text-align:left; float:left; direction:ltr">Login</a>
+                <a href="Characters.aspx" style="text-align:left; float:left; direction:ltr">Characters</a>
+            <a href="Plot.aspx" style="text-align:left; float:left; direction:ltr">Plot</a>
+            <a href="Sgame.aspx" style="text-align:left; float:left; direction:ltr">Quiz</a>
+            <a href="UserDetails.aspx" style="text-align:left; float:left; direction:ltr">User Details</a> 
+            <a href="UpdateUD1.aspx" style="text-align:left; float:left; direction:ltr">Update Personal Info</a>
+                <a href="Logout.aspx" style="text-align:left; float:left; direction:ltr">LogOut</a>
+                     
+                <a id="ManagerPageRef" runat="server" href="AdminPage.aspx" style="text-align:left; float:left; direction:ltr"> Admin Page</a>
+        
+            <p style="font-size:15px; text-align:right; float:right">Hello <%=Session["Login"] %></p>
+            <br />
+             <p style="font-size:15px; text-align:right; float:right"> <% Response.Write("Enteracess counter: "+Application["counter"]); %></p>
+            </div>
+
+                    </div>
+                   
+    
+
+                    <div>
+                        <asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server">
+        
+                        </asp:ContentPlaceHolder>
+                    </div>      
+</body>
+</html>
